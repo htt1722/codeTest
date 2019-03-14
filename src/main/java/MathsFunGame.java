@@ -42,6 +42,10 @@ public class MathsFunGame {
         }
     }
 
+    /**
+     * It is a main business method to determine whether a number is divisible
+     * 
+     */
     private String outputMess(int number){
         if(number % 3 == 0 && number % 5 == 0){
             return FIZZBUZZ;
